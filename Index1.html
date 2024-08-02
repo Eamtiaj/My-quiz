@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="styles1.css">
+</head>
+<body>
+    <div class="quiz-container">
+        <h1>Quiz</h1>
+        <div id="quiz">
+            <img id="question-image" src="image.jpg" alt="Question Image">
+            <p id="question"></p>
+            <div id="choices"></div>
+            <button id="submit" onclick="submitAnswer()">Submit Answer</button>
+            <button id="next" onclick="nextQuestion()" style="display:none;">Next</button>
+            <p id="timer">Time left: <span id="time">30</span> seconds</p>
+            <p id="result"></p>
+        </div>
+    </div>
+    <script src="java1.js"></script>
+</body>
+</html>
